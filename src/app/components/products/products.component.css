@@ -1,0 +1,45 @@
+.cart-top{
+  display: flex;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color:rgb(247, 222, 122);
+  background-clip: border-box;
+  position: relative;
+  flex-direction: column;
+  border:1px solid black;
+  border-radius: 0.25rem;
+}
+.img-header{
+  margin-right: 20px;
+  margin-top: 16px;
+
+}
+h6{
+  text-align: center;
+}
+
+.items a:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.itemdata{
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:100ch;
+}
+
+.card{
+  padding:20px;
+  margin:50px;
+}
+.card img{
+  width:200px;
+  height: 200px;
+  margin-bottom:15px ;
+  transition:0.3s ease-in-out;
+  margin-left: 45px;
+}
+
+.card img:hover{
+  transition:0.3s ease-in-out;
+  transform:scale(1.1);
+}
